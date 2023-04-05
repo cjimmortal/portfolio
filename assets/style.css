@@ -1,3 +1,177 @@
-.test {
-    color:red;
+body{
+    background-color: #23262D;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.main-div{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.name{
+    margin-left: 160px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.name p{
+    color: #FF7A00;
+}
+.name .fullname{
+    color: white;
+}
+.modules{
+    width: 70%;
+    margin:0 160px 0 0 ;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 34px 0 0;
+}
+
+.btn-brief{
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    margin-top: -0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.btn-brief span{
+    color: #FF7A00;
+}
+/* hero start */
+.hero{
+    width: 100%;
+    display: flex;
+}
+.description{
+    width: 50%;
+    margin: 5rem 0 0 160px; 
+}
+.description .hero-title{
+    font-size: 56px;
+    color: #FF7A00;
+}
+.description .hero-sub-title{
+    margin-top: -3rem;
+    font-size: 32px;
+}
+.description .hero-description{
+    width: 22rem;
+    margin-top: -1rem;
+}
+.description .hero-btn-brief{
+    width: 5rem;
+    color: black;
+    background-color: #FF7A00;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.profile-img{
+    width: 50%;
+    text-align: right;
+    margin: 5rem 160px 0 0;
+}
+.profile-img .img{
+    height: 340px;
+}
+
+/* social-accounts start */
+.social-accounts{
+    width: 100%;
+}
+.social-accounts ul{
+    margin:0 0 0 120px;
+}
+
+.social-accounts ul li{
+    color: #737373;
+}
+
+/* about start  and recent projects */
+.about{
+    width: 100%;
+}
+.box{
+    margin: 130px 160px 0 160px;
+    display: flex;
+}
+.x{
+    width: 50%;
+    margin-top: -3rem;
+}
+.x .title{
+    font-size: 30px;
+    color:white;
+}
+.x .about-sub-descri{
+    width: 14rem;
+    color: #FF7A00;
+}
+
+.skills{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.skills-data{
+    width: 85%;
+    font-size: 14px;
+    padding: 1rem 0 1rem 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px 50px 5px 5px;
+    background-color: #2F333C;
+
+
+}
+.y{
+    width: 50%;
+}
+.y .hr-line{
+    border: 1px solid orange;
+}
+.y .description{
+    padding:0;
+    margin:2.9rem 0 0 0;
+    width: 100%;
+}
+.education{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.education-data{
+    width: 100%;
+    padding: 1rem 0 1rem 1.5rem;
+    font-size: 14px;
+    line-height: 42.4px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px 50px 5px 5px;
+    background-color: #2F333C;
+
+
+}
+.dot{
+    color: #FF7A00;
+}
+
+.proj{
+    width: 100%;
+}
+.projects img{
+    margin: 0 0 0 160px;
 }

@@ -1,3 +1,7 @@
+html, body{
+    margin: 0;
+    padding:0;
+}
 body{
     background-color: #23262D;
     color: white;
@@ -27,7 +31,7 @@ body{
     color: white;
 }
 .modules{
-    width: 70%;
+    width: 100%;
     margin:0 160px 0 0 ;
     text-align: right;
     display: flex;
@@ -106,7 +110,7 @@ ul li{
 
 /* about start  and recent projects */
 .about{
-    width: 100%;
+    width: 100%; 
 }
 .box{
     margin: 130px 160px 0 160px;
@@ -171,7 +175,133 @@ ul li{
 
 .proj{
     width: 100%;
+    justify-content: center;
+    display: flex;
+   
 }
-.projects img{
-    margin: 0 0 0 160px;
+.proj .box2{
+    margin: 0 160px 0 160px;
+    display: flex;
+   
+}
+.proj .works-img1{
+     height: 239px;
+     background-color: #737373;
+}
+
+.proj .works-img2{
+    height: 258px;
+    background-color: #737373;
+}
+.proj .works-img3{
+    height: 299px;
+    background-color: #737373;
+}
+/* 
+.img-box1{
+
+} */
+.img-box2{
+    margin: 0 0 0 7rem;
+}
+.img-box3{
+    margin: 0 0 0 7rem;
+}
+
+.btn-view{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.btn-view .view-proj{
+    width: 10rem;
+    color: black;
+    background-color: #FF7A00;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.work-experience{
+    width: 100%;
+}
+.work-experience .box2{
+    margin: 0 160px 0 160px;
+    display: flex;
+}
+.work-left{
+    width: 50%;
+}
+.work-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    width: 100%;
+    margin-top:-0.8rem;
+    display: flex;
+}
+
+.work-right .r-left{
+    width: 50%;
+}
+.work-right .r-right{
+    width: 50%;
+    text-align: right;
+}
+
+.sub-title{
+    font-size: 14px;
+    color: #737373;
+    margin-top:-0.8rem;
+}
+
+
+footer{
+    height: 362px;
+    width: 100%;
+    background-color: #FF7A00;
+}
+.footer-container{
+    width: 100%;
+}
+.footer-box{
+    margin-left: 160px;
+    display: flex;
+}
+
+.f-left{
+    width: 50%;
+}
+.f-right{
+    width: 50%;
+    margin-right: 100px;
+    text-align: right;
+    
+}
+
+.footer-descri{
+    width: 22rem;
+    color: black;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:6rem 0 0 0;
+
+}
+.cjlogo{
+    margin-top: 3rem;
+    height: 262px;
+    opacity: 0.4;
+}
+
+
+.f-social-accounts{
+    width: 100%;
+}
+.f-social-accounts ul{
+    margin:3rem 0 0 -40px;
+}
+
+.f-social-accounts ul li{
+    color: black;
 }

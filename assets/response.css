@@ -20,7 +20,7 @@
     }
     .description {
         margin: 40px 0 0 50px;
-        width: 117%;
+        width: 100%;
     }
     .img{
         height: 170px;
@@ -42,7 +42,7 @@
 
     /* about */
     .about {
-        width: 138%;
+        width: 100%;
     }
     .box {
         width: 80%;
@@ -66,14 +66,14 @@
         width: 100%;
     }
     .skills-data {
-        width: 95%;
+        width: 100%;
     }
     /* about endd   */
 
 
     /* recent projects */
     .proj{
-        width: 120%;
+        width: 100%;
     }
     .proj .box2 {
         margin: 0 0 0 70px;

@@ -43,11 +43,24 @@
         height: 230px;
     }
     .description .hero-btn-brief {
-        margin: 3rem 30px 5rem  0;
+        margin: 1rem 30px 5rem  0;
         float: right;
     }
     .social-accounts ul {
-        margin: 0 0 0 1rem;
+        margin: 0 0 0 -0.5rem;
+        font-size: 11px;
+    }
+    ul li {
+        padding: 0 21px 0 0;
+    }
+    .education {
+        font-size: 14px;
+    }
+    .education-data {
+        width: 94%;
+        font-size: 10px;
+        line-height: 20.4px;
+        border-radius: 5px 33px 5px 5px;
     }
 
 
@@ -63,12 +76,26 @@
     }
     .box {
         width: 80%;
-        margin: 130px 160px 0 50px;
+        margin: 130px 160px 0 0;
         display: flex;
         flex-direction: column;
     }
     .x .title {
-        font-size: 25px;
+        font-size: 14px; 
+    }
+    .x .about-sub-descri {
+        width: 19rem;
+        font-size: 11px;
+    }
+    .skills {
+        font-size: 14px;
+    }
+    .skills-data {
+        font-size: 11px;
+    }
+    .y .description {
+        font-size: 11px;
+        margin: 1.9000000000000004rem 0 0 0;
     }
     .title-line{
         display: block;
@@ -78,12 +105,15 @@
     }
     .x {
         width: 100%;
+        padding-left: 30px;
     }
     .y {
         width: 100%;
+        padding-left: 30px;
     }
     .skills-data {
-        width: 100%;
+        width: 94%;
+        border-radius: 5px 33px 5px 5px;
     }
     /* about endd   */
 
@@ -93,7 +123,7 @@
         width: 100%;
     }
     .proj .box2 {
-        margin: 0 0 0 70px;
+        margin: 0 0 0 0;
         display: flex;
     }
     .box2{
@@ -110,7 +140,8 @@
         text-align: left;
     }
     .proj-name{
-        padding-right: 2rem;
+        padding:2.5rem 1rem 0 0.7rem;
+        font-size: 11px;
         
     }
     .btn-view {

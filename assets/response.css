@@ -1,32 +1,49 @@
 @media only screen and (max-width:360px){
     /* nav-bar */
     .name{
-        margin-left: 50px;
+        margin-left: 30px;
+        font-size: 11px;
     }
     .modules{
         display: none;
     }
     .burger{
         display: flex;
-        margin: 0.5rem -82px 0 0;
+        margin: 0.3rem 20px 0 0;
     }
     .hero {
         display: flex;
         flex-direction: column-reverse;
     }
+    .description .hero-title{
+        font-size: 32px;
+        padding-left: 30px;
+    }
+    .description .hero-sub-title {
+        margin-top: -2rem;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .description .hero-description {
+        font-size: 14px;
+        padding: 0.5rem 0 0 30px;
+
+        width: 19rem;
+    }
     .profile-img {
         width: 100%;
-        margin: 5rem 0 0 3.5rem;
+        margin: 3rem 0 0 -3.5rem;
     }
     .description {
-        margin: 40px 0 0 50px;
+        margin: 0;
+        padding: 40px 0 0 0px;
         width: 100%;
     }
-    .img{
-        height: 170px;
+    .profile-img .img{
+        height: 230px;
     }
     .description .hero-btn-brief {
-        margin: 3rem 0 5rem  0;
+        margin: 3rem 30px 5rem  0;
         float: right;
     }
     .social-accounts ul {

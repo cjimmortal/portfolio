@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/response.css">
+    <script src="assets/script.js"></script>
 </head>
-<body>
+<body id="body">
     <div class="main-div">
         <!-- navbar start -->
         <div class="nav-bar">
@@ -22,6 +24,10 @@
                     <li>Contact</li>
                     <li class="btn-brief">Brief me<span>/></span></li>
                 </ul>
+            </div>
+            <div class="burger">
+                <img class="tab" src="assets/img/cjlogo.png">
+                
             </div>
         </div> 
         <!-- navbar end -->
@@ -52,7 +58,8 @@
         <div class="about">
             <div class="box">
                 <div class="x">
-                    <p class="title">About me</p>
+                    <p class="title">About me <span><hr class="title-line"></span></p>
+                    
                     <p class="about-sub-descri">
                         <span><</span><span>p</span><span>></span><br>
                             A student who essentially has self-confidence in  his talents, unlimited patience, a drive to study, creative thinking, and self-discipline.
@@ -91,7 +98,7 @@
         <div class="about">
             <div class="box">
                 <div class="x">
-                    <p class="title">Recent Projects</p>
+                    <p class="title">Recent Projects <span><hr class="title-line"></span></p>
                 </div>
                 <div class="y">
                     <hr class="hr-line">
@@ -102,27 +109,27 @@
             <div class="box2">
                 <div class="img-box1"> 
                     <img class="works-img1" src="assets/img/me.png">
-                    <p>Flood monitoring System</p>
+                    <p class="proj-name">Flood monitoring System</p>
                 </div>
                 <div class="img-box2">
                     <img class="works-img2" src="assets/img/me.png">
-                    <p>Baranggay Management System</p>
+                    <p class="proj-name">Baranggay Management System</p>
                 </div>
                 <div class="img-box3">
                     <img class="works-img3" src="assets/img/me.png">
-                    <p>College Information System</p>
+                    <p class="proj-name">College Information System</p>
                 </div>
             </div>
         </div>
         <div class="btn-view">
-            <p class="view-proj">See All Projects</p>
+            <p class="view-proj" onclick="seeProjects()">See All Projects</p>
         </div>
         <!-- recent projects end -->
 
         <div class="about">
             <div class="box">
                 <div class="x">
-                    <p class="title">Places of&nbsp;&nbsp;Work</p>
+                    <p class="title">Places of&nbsp;&nbsp;Work <span><hr class="title-line"></span></p>
                 </div>
                 <div class="y">
                     <hr class="hr-line">
@@ -213,8 +220,79 @@
             </div>
         </footer>
     </div>
+
+    <div class="viewProjects" id="viewProjects">
+        <div class="vp-box">
+            <div>
+                <p class="title">My Projects</p>
+                <div  class="row1">
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-1" src="assets/img/image 4.png">
+                    </div>
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-1" src="assets/img/image 4.png">
+                    </div>
+                </div>
+
+                <div  class="row2">
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-2" src="assets/img/image 4.png">
+                    </div>
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-2" src="assets/img/image 4.png">
+                    </div>
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-2" src="assets/img/image 4.png">
+                    </div>
+                   
+                </div>
+                <div  class="row3">
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-1" src="assets/img/image 4.png">
+                    </div>
+                    <div>
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                        </div>
+                        <img class="img-1" src="assets/img/image 4.png">
+                    </div>
+                </div>
+               
+            </div>
+            <div class="scroll-bar">
+                <p class="title" onclick="closeMP()"><img src="assets/img/close.png"></p>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+    </div>
 </body>
 </html>
+
 
 
 

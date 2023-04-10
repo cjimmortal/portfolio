@@ -1,0 +1,111 @@
+@media only screen and (max-width:360px){
+    /* nav-bar */
+    .name{
+        margin-left: 50px;
+    }
+    .modules{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        margin: 0.5rem -82px 0 0;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .profile-img {
+        width: 100%;
+        margin: 5rem 0 0 3.5rem;
+    }
+    .description {
+        margin: 40px 0 0 50px;
+        width: 117%;
+    }
+    .img{
+        height: 170px;
+    }
+    .description .hero-btn-brief {
+        margin: 3rem 0 5rem  0;
+        float: right;
+    }
+    .social-accounts ul {
+        margin: 0 0 0 1rem;
+    }
+
+
+    
+
+
+    
+    /* nav-bar end */
+
+    /* about */
+    .about {
+        width: 138%;
+    }
+    .box {
+        width: 80%;
+        margin: 130px 160px 0 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .x .title {
+        font-size: 25px;
+    }
+    .title-line{
+        display: block;
+    }
+    .hr-line{
+        display: none;
+    }
+    .x {
+        width: 100%;
+    }
+    .y {
+        width: 100%;
+    }
+    .skills-data {
+        width: 95%;
+    }
+    /* about endd   */
+
+
+    /* recent projects */
+    .proj{
+        width: 120%;
+    }
+    .proj .box2 {
+        margin: 0 0 0 70px;
+        display: flex;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    .proj .works-img1, .proj .works-img2, .proj .works-img3{
+        height: 115px;
+        
+    }
+    .img-box1, .img-box2, .img-box3{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 0 1rem 0;
+        text-align: left;
+    }
+    .proj-name{
+        padding-right: 2rem;
+        
+    }
+    .btn-view {
+        justify-content: end;
+        width: 135%;
+    }
+    .view-proj{
+        margin-right:3rem;
+    }
+    /* recent projects end */
+    
+    footer{
+        display: none;
+    }
+}

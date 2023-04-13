@@ -192,4 +192,15 @@
         opacity: 0.8;
         margin-right: 10px;
     }
+
+    /* view projects btn */
+    .btn-view .view-proj {
+        width: 7rem;
+        font-size: 11px;
+    }
+    .btn-view {
+        justify-content: end;
+        width: 100%;
+    }
+    /* view projects btn end */
 }

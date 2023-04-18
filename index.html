@@ -11,6 +11,20 @@
     <script src="assets/script.js"></script>
 </head>
 <body id="body">
+    <div class="tab-h" id="hidden-tab">
+        <div class="modules-h" >
+            <div class="close-burger" >
+                <img onclick="closeTab()" class="close-tab" src="assets/img/close.png"> 
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Works</li>
+                <li>Contact</li>
+                <li class="btn-brief-h">Brief me<span>/></span></li>
+            </ul>
+        </div>
+    </div>
     <div class="main-div">
         <!-- navbar start -->
         <div class="nav-bar">
@@ -27,11 +41,12 @@
                 </ul>
             </div>
             <div class="burger">
-                <img class="tab" src="assets/img/cjlogo.png">
+                <img class="tab" onclick="openTab()" src="assets/img/burger.png">
                 
             </div>
         </div> 
         <!-- navbar end -->
+        
         <!-- hero start -->
         <div class="hero">
             <div class="description">
@@ -220,6 +235,8 @@
                 </div>
             </div>
         </footer>
+
+        
     </div>
 
     <div class="viewProjects" id="viewProjects">
@@ -286,11 +303,14 @@
                
             </div>
             <div class="scroll-bar">
-                <p class="title" onclick="closeMP()"><img src="assets/img/close.png"></p>
+                <p class="title" onclick="closeMP()"><img class="close-img" src="assets/img/close.png"></p>
             </div>
+            
         </div>
         <br><br><br><br><br><br><br><br>
     </div>
+
+    
 </body>
 </html>
 

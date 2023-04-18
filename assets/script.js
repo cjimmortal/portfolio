@@ -9,3 +9,13 @@ function closeMP(){
     document.getElementById('body').style.overflow= "auto";
     document.getElementById('body').style.paddingRight= "0rem";
 }
+
+function closeTab(){
+    document.getElementById('hidden-tab').style.display="none";
+    document.getElementById('body').style.overflow= "auto";
+}
+
+function openTab(){
+    document.getElementById('hidden-tab').style.display="block";
+    document.getElementById('body').style.overflow= "hidden";
+}

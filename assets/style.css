@@ -47,20 +47,31 @@ body{
     display: none;
     justify-content: end;
 }
+.close-burger{
+    width: 100%;
+    margin:0.5rem 160px 0 0 ;
+    text-align: right;
+    display: block;
+    justify-content: end;
+}
 .tab{
     height: 30px;
 }
-ul{
+.close-tab {
+    height: 30px;
+    padding-right: 1.2rem;
+}
+.modules ul{
     display: flex;
     flex-direction: row;
 }
-ul li{
+.modules ul li{
     text-decoration: none;
     list-style-type: none;
     padding: 0 34px 0 0;
 }
 
-.btn-brief{
+.modules .btn-brief{
     color: black;
     background-color: white;
     padding: 0.5rem;
@@ -115,10 +126,17 @@ ul li{
 }
 .social-accounts ul{
     margin:0 0 0 120px;
+    display: flex;
+    flex-direction: row;
+    float: left;
 }
 
 .social-accounts ul li{
     color: #737373;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 34px 0 0;
+
 }
 
 /* about start  and recent projects */
@@ -318,6 +336,9 @@ footer{
 }
 .f-social-accounts ul{
     margin:3rem 0 0 -40px;
+    display: flex;
+    flex-direction: row;
+    float: left;
 }
 
 .f-social-accounts ul li{
@@ -375,4 +396,45 @@ footer{
     margin-right: 10rem;
     
 }
+
+
+/* tab */
+.tab-h {
+    margin-top: -1rem;
+    height: 200vh;
+    width: 100%;
+    background-color: #FF7A00;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    float: right;
+    line-height: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.modules-h {
+    padding-top: 3.6rem;
+}
+.btn-brief-h {
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    width: 6rem;
+    margin-right: 1.2rem;
+}
+
+/* tab end */
 

@@ -7,9 +7,9 @@
     .modules{
         display: none;
     }
-    .burger{
+    .burger {
         display: flex;
-        margin: 0.3rem 20px 0 0;
+        margin: 0rem 20px 0 0;
     }
     .hero {
         display: flex;
@@ -203,4 +203,43 @@
         width: 100%;
     }
     /* view projects btn end */
+
+
+    /* view projects */
+    .viewProjects {
+    padding: 50px 0 0 30px;
+    }
+    .vp-box .title {
+    font-size: 14px;
+    }
+    .close-img{
+        height: 20px;
+    }
+    .project-title {
+        font-size: 11px;
+        margin: -0.0rem 0 0 0.3rem;
+    }
+    .pt-logo {
+        height: 14px;
+    }
+    .img-1 {
+        height: 150px;
+        padding: 0.4rem 1.5rem 12px 0;
+    }
+    .img-2 {
+        height: 150px;
+        padding: 0.4rem 1.5rem 12px 0;
+    }
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .scroll-bar {
+        margin-right: 3.5rem;
+    }
+    /* view projects end */
+
+
+
+    
 }

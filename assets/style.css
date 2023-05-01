@@ -1,6 +1,8 @@
 html, body{
     margin: 0;
     padding:0;
+    scroll-behavior: smooth;
+
     
 }
 body{
@@ -70,6 +72,16 @@ body{
     list-style-type: none;
     padding: 0 34px 0 0;
 }
+.modules ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+
+}
+.modules ul li a:hover{
+    color: #FF7A00;
+    
+}
 
 .modules .btn-brief{
     color: black;
@@ -78,6 +90,7 @@ body{
     margin-top: -0.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    cursor: pointer;
 }
 .btn-brief span{
     color: #FF7A00;
@@ -90,11 +103,29 @@ body{
 .description{
     width: 50%;
     margin: 5rem 0 0 160px; 
+    cursor: default;
 }
+.main-hero-title{
+    width: 30%;
+}
+
 .description .hero-title{
+    width: auto;
     font-size: 56px;
     color: #FF7A00;
+
+    border-right: .15em solid orange;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
 .description .hero-sub-title{
     margin-top: -3rem;
     font-size: 32px;
@@ -110,6 +141,7 @@ body{
     padding: 0.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    cursor: pointer;
 }
 .profile-img{
     width: 50%;
@@ -138,10 +170,23 @@ body{
     padding: 0 34px 0 0;
 
 }
+.social-accounts ul li a {
+    color: #737373;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+.social-accounts ul li a:hover{
+    color: white;
+
+}
+
 
 /* about start  and recent projects */
 .about{
     width: 100%; 
+    cursor: default;
 }
 .box{
     margin: 130px 160px 0 160px;
@@ -233,21 +278,24 @@ body{
     height: 299px;
     background-color: #737373;
 }
-/* 
-.img-box1{
 
-} */
+.img-box1{
+    cursor: pointer;
+} 
 .img-box2{
     margin: 0 0 0 7rem;
+    cursor: pointer;
 }
 .img-box3{
     margin: 0 0 0 7rem;
+    cursor: pointer;
 }
 
 .btn-view{
     width: 100%;
     justify-content: center;
     display: flex;
+    cursor: pointer;
 }
 .btn-view .view-proj{
     width: 10rem;
@@ -259,6 +307,7 @@ body{
 }
 .work-experience{
     width: 100%;
+    cursor: default;
 }
 .work-experience .box2{
     margin: 0 160px 0 160px;
@@ -322,6 +371,7 @@ footer{
     font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:6rem 0 0 0;
+    cursor: default;
 
 }
 .cjlogo{
@@ -342,7 +392,16 @@ footer{
 }
 
 .f-social-accounts ul li{
+        color: black;
+        padding: 0 34px 0 0;
+}
+.f-social-accounts ul li a{
+    text-decoration: none;
+    list-style-type: none;
     color: black;
+}
+.f-social-accounts ul li a:hover{
+    color: white;
 }
 
 .viewProjects{
@@ -434,6 +493,7 @@ ul {
     font-size: 16px;
     width: 6rem;
     margin-right: 1.2rem;
+    cursor: pointer;
 }
 
 /* tab end */

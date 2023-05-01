@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/response.css">
     <script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body id="body">
     <div class="tab-h" id="hidden-tab">
@@ -19,6 +19,7 @@
             <ul>
                 <li>Home</li>
                 <li>About</li>
+                <li>Porjects</li>
                 <li>Works</li>
                 <li>Contact</li>
                 <li class="btn-brief-h">Brief me<span>/></span></li>
@@ -33,13 +34,15 @@
             </div>
             <div class="modules">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Works</li>
-                    <li>Contact</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#secAbout">About</a></li>
+                    <li><a href="#secProjects">Porjects</a></li>
+                    <li><a href="#secWorks">Works</a></li>
+                    <li><a href="#secContact">Contact</a></li>
                     <li class="btn-brief">Brief me<span>/></span></li>
                 </ul>
             </div>
+     
             <div class="burger">
                 <img class="tab" onclick="openTab()" src="assets/img/burger.png">
                 
@@ -50,7 +53,9 @@
         <!-- hero start -->
         <div class="hero">
             <div class="description">
-                <p class="hero-title">I'm Cj</p>
+                <div class="main-hero-title">
+                    <p class="hero-title">I'm Cj</p>
+                </div>
                 <p class="hero-sub-title">Web designer & Developer</p>
                 <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu nt ut labore et dolore magna aliqua.</p>
                 <p class="hero-btn-brief">Brief me</p>
@@ -63,14 +68,15 @@
         <!-- social-accounts start -->
         <div class="social-accounts" >
             <ul>
-                <li style="color: white;">Github</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Gmail</li>
+                <li><a href="">Github</a></li>
+                <li><a href="https://www.facebook.com/aliennaalien">Facebook</a></li>
+                <li><a href="https://www.instagram.com/cjisnotmyname/">Instagram</a></li>
+                <li><a onclick="myFunction()">Gmail</a></li>
             </ul>
         </div>
         <!-- social-accounts end -->
         <!-- about start -->
+        <section id="secAbout"></section>
         <div class="about" >
             <div class="box">
                 <div class="x">
@@ -111,6 +117,7 @@
         </div>
         <!-- about end -->
         <!-- recent projects start -->
+        <section id="secProjects"></section>
         <div class="about">
             <div class="box">
                 <div class="x">
@@ -124,16 +131,16 @@
         <div class="proj" >
             <div class="box2">
                 <div class="img-box1"> 
-                    <img class="works-img1" src="assets/img/me.png">
+                    <img class="works-img1" src="assets/img/1.png">
                     <p class="proj-name">Flood monitoring System</p>
                 </div>
                 <div class="img-box2">
-                    <img class="works-img2" src="assets/img/me.png">
+                    <img class="works-img2" src="assets/img/2.png">
                     <p class="proj-name">Baranggay Management System</p>
                 </div>
                 <div class="img-box3">
-                    <img class="works-img3" src="assets/img/me.png">
-                    <p class="proj-name">College Information System</p>
+                    <img class="works-img3" src="assets/img/3.png">
+                    <p class="proj-name">Anti Theft Car Parking System</p>
                 </div>
             </div>
         </div>
@@ -141,7 +148,7 @@
             <p class="view-proj" onclick="seeProjects()">See All Projects</p>
         </div>
         <!-- recent projects end -->
-
+        <section id="secWorks"></section>
         <div class="about" >
             <div class="box">
                 <div class="x">
@@ -153,7 +160,7 @@
             </div>
         </div>
 
-
+        
         <div class="work-experience" >
             <div class="box2">
                 <div class="work-left">
@@ -222,10 +229,10 @@
                         <p class="footer-descri">In case you're interested, please get in touch.</p>
                         <div class="f-social-accounts">
                             <ul>
-                                <li style="color: white;">Github</li>
-                                <li>Facebook</li>
-                                <li>Instagram</li>
-                                <li>Gmail</li>
+                                <li><a href="">Github</a></li>
+                                <li><a href="https://www.facebook.com/aliennaalien">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/cjisnotmyname/">Instagram</a></li>
+                                <li><a onclick="myFunction()">Gmail</a></li>
                             </ul>
                         </div>
                     </div>

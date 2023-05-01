@@ -484,6 +484,12 @@ ul {
 .modules-h {
     padding-top: 3.6rem;
 }
+.modules-h ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+     
+}
 .btn-brief-h {
     color: black;
     background-color: white;
@@ -498,3 +504,22 @@ ul {
 
 /* tab end */
 
+
+
+
+
+.content{
+    width: 100%;
+    /* background-color: #737373; */
+}
+.c-img{
+    height: 450px;
+}
+
+.theDescription{
+    width: 50%;
+}
+.theTitle{
+    font-size: large;
+    margin-bottom: -0.5rem;
+}

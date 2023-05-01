@@ -244,5 +244,24 @@
 
 
 
+    /* projects view */
+    .content{
+        width: 80%;
+        /* background-color: #737373; */
+    }
+    .c-img{
+        height: 174px;
+    }
     
+    .theDescription{
+        width: 100%;
+        font-size: 11px;
+    }
+    .theTitle{
+        font-size: large;
+        margin-bottom: -0.5rem;
+        font-size: 11px;
+    }
+
+
 }

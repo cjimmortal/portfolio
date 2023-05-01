@@ -17,12 +17,12 @@
                 <img onclick="closeTab()" class="close-tab" src="assets/img/close.png"> 
             </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Porjects</li>
-                <li>Works</li>
-                <li>Contact</li>
-                <li class="btn-brief-h">Brief me<span>/></span></li>
+                <li><a onclick="closeTab()" href="index.html">Home</a></li>
+                    <li><a onclick="closeTab()" href="#secAbout">About</a></li>
+                    <li><a onclick="closeTab()" href="#secProjects">Porjects</a></li>
+                    <li><a  onclick="closeTab()" href="#secWorks">Works</a></li>
+                    <li><a onclick="closeTab()"  href="#secContact">Contact</a></li>
+                <li class="btn-brief-h">Hire me<span>/></span></li>
             </ul>
         </div>
     </div>
@@ -39,7 +39,7 @@
                     <li><a href="#secProjects">Porjects</a></li>
                     <li><a href="#secWorks">Works</a></li>
                     <li><a href="#secContact">Contact</a></li>
-                    <li class="btn-brief">Brief me<span>/></span></li>
+                    <li class="btn-brief">Hire me<span>/></span></li>
                 </ul>
             </div>
      
@@ -58,7 +58,7 @@
                 </div>
                 <p class="hero-sub-title">Web designer & Developer</p>
                 <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu nt ut labore et dolore magna aliqua.</p>
-                <p class="hero-btn-brief">Brief me</p>
+                <p class="hero-btn-brief">Hire me</p>
             </div>
             <div class="profile-img">
                 <img class="img" src="assets/img/me.png">
@@ -130,15 +130,15 @@
         </div>
         <div class="proj" >
             <div class="box2">
-                <div class="img-box1"> 
+                <div class="img-box1" onclick="fms()"> 
                     <img class="works-img1" src="assets/img/1.png">
                     <p class="proj-name">Flood monitoring System</p>
                 </div>
-                <div class="img-box2">
+                <div class="img-box2"  onclick="bmis()">
                     <img class="works-img2" src="assets/img/2.png">
                     <p class="proj-name">Baranggay Management System</p>
                 </div>
-                <div class="img-box3">
+                <div class="img-box3"  onclick="atcps()">
                     <img class="works-img3" src="assets/img/3.png">
                     <p class="proj-name">Anti Theft Car Parking System</p>
                 </div>
@@ -221,7 +221,7 @@
                 
             </div>
         </div><br><br><br>
-        
+        <section id="secContact"></section>
         <footer>
             <div class="footer-container">
                 <div class="footer-box">
@@ -248,67 +248,179 @@
 
     <div class="viewProjects" id="viewProjects">
         <div class="vp-box">
-            <div>
+            <div class="one" id="one"> 
                 <p class="title">My Projects</p>
                 <div  class="row1">
-                    <div>
+                    <div onclick="fms()">
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                            <div><p class="project-title">Flood Monitoring System</p></div>
                         </div>
-                        <img class="img-1" src="assets/img/image 4.png">
+                        <img class="img-1" src="assets/img/FMS.png">
                     </div>
-                    <div>
+                    <div onclick="bmis()">
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                            <div><p class="project-title">Baranggay Management Information System</p></div>
                         </div>
-                        <img class="img-1" src="assets/img/image 4.png">
+                        <img class="img-1" src="assets/img/BMIS.png">
                     </div>
                 </div>
 
                 <div  class="row2">
-                    <div>
+                    <div onclick="atcps()">
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                            <div><p class="project-title">Anti Theft Car Parking System</p></div>
                         </div>
-                        <img class="img-2" src="assets/img/image 4.png">
+                        <img class="img-2" src="assets/img/ATCPS.png">
                     </div>
-                    <div>
+                    <div onclick="bergs()">
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                            <div><p class="project-title">BERGS</p></div>
                         </div>
-                        <img class="img-2" src="assets/img/image 4.png">
+                        <img class="img-2" src="assets/img/BERGS.png">
                     </div>
-                    <div>
+                    <div onclick="spotify()">
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
+                            <div><p class="project-title">Spotify Clone</p></div>
                         </div>
-                        <img class="img-2" src="assets/img/image 4.png">
+                        <img class="img-2" src="assets/img/SC.png">
                     </div>
                    
                 </div>
                 <div  class="row3">
-                    <div>
+                    <div onclick="starbucks()">
+                        <div class="d-flex" style="display:flex">
+                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
+                            <div><p class="project-title">Mini Starbucks Website</p></div>
+                        </div>
+                        <img class="img-1" src="assets/img/MSW.png">
+                    </div>
+                    <!-- <div>
                         <div class="d-flex" style="display:flex">
                             <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
                             <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
                         </div>
                         <img class="img-1" src="assets/img/image 4.png">
-                    </div>
-                    <div>
-                        <div class="d-flex" style="display:flex">
-                            <div><img class="pt-logo" src="assets/img/cjlogo.png"></div>
-                            <div><p class="project-title">Lorem ipsum lorem ipsum</p></div>
-                        </div>
-                        <img class="img-1" src="assets/img/image 4.png">
-                    </div>
+                    </div> -->
                 </div>
                
             </div>
+            <div class="fms" id="fms"> 
+                <p class="title">Flood Monitoring System</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/FMS.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">To track an increase in water levels, a flood monitoring system is utilized. The system consists of sensors that are placed in the hardware of the system. The sensors are connected to the microcontroller to the system. These sensors are installed on places with the hardware device to measure water levels in real-time and transfer data continually to the central data system administration over various networks using API SMS, or Wi-Fi.</p>
+                    <br>
+                    <p class="theTitle">Project Achievements</p>
+                    <p class="theDescription">1.Take home the Best Technology Award at Appcon 2022</p>
+                    <p class="theDescription">2.Third Place as Most Popular Booth Award (BSIT) in CSD Techtivity 2023</p>
+                    <p class="theDescription">3.Second Place as Best Thesis Award (BSIT) in CSD Techtivity 2023</p>
+                    <br>
+                    <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: user1 Password: user123</p>
+                   
+                    <a href="https://www.ucc-csd-bsit.com/BSIT4B/FMS/login.php" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="atcps" id="atcps"> 
+                <p class="title">Anti Theft Car Parking System</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/ATCPS.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">The purpose of the study is not just to lessen but also to teach others that with the help of technology, life can be easy but at the same time hard if you misuse the technology. When it comes to the good side of the system project or the Anti-Theft Car Parking System, it can analyze and store data with ease, and it will also help them to save time and other things like paper as they will switch from the old way of using paper into typing the data in a form.</p>
+                    <br>
+                    
+                    <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: admin Password: admin123</p>
+                   
+                    <a href="https://ucc-bsit.com/BSIT3B/ATCPS/vehicle-parking/index.php" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bmis" id="bmis"> 
+                <p class="title">Baranggay Management Information System</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/BMIS.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">The purpose of the study is not just to lessen but also to teach others that with the help of technology, life can be easy but at the same time hard if you misuse the technology. When it comes to the good side of the system project or the Anti-Theft Car Parking System, it can analyze and store data with ease, and it will also help them to save time and other things like paper as they will switch from the old way of using paper into typing the data in a form.</p>
+                    <br>
+                    
+                    <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: admin Password: admin123</p>
+                   
+                    <a href="https://ucc-bsit.com/BSIT3B/ATCPS/vehicle-parking/index.php" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="spotify" id="spotify"> 
+                <p class="title">Spotify Clone</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/SC.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">The Spotify clone website is a mini project created to enhance my front-end development skills using HTML, CSS, and JavaScript. I create a replica of the user interface of the original Spotify website, including the header, navigation, search bar, and layout of playlists and music tracks. The project aims to improve my proficiency in front-end web development while also demonstrating your abilities to potential employers.</p>
+
+                    <!-- <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: admin Password: admin123</p> -->
+                   
+                    <a href="https://cjimmortal.github.io/spotify/" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="starbucks" id="starbucks"> 
+                <p class="title">Mini Starbucks Website</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/MSW.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">The mini starbucks website is a mini project created to enhance my front-end development skills using HTML, CSS, and JavaScript. I create a replica of the user interface of the original Spotify website, including the header, navigation, search bar, and layout of playlists and music tracks. The project aims to improve my proficiency in front-end web development while also demonstrating your abilities to potential employers.</p>
+
+                    <!-- <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: admin Password: admin123</p> -->
+                   
+                    <a href="https://cjimmortal.github.io/starbucks/" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bergs" id="bergs"> 
+                <p class="title">BERGS Website</p>
+                <div class="content">
+                    <img class="c-img" src="assets/img/BERGS.png">
+                    
+                    <p class="theTitle">Obejctives</p>
+                    <p class="theDescription">Our professor gave us the task of developing a Bergs website as part of our fieldwork assignment. The BERGS is an acronym for the pioneers who founded and currently own the three (3) active businesses. The businesses, the first of their sort in the nation today, are made up entirely of Filipino talent in the power generation industry. The three businesses are intended to function as "ONE STOP SHOP FOR RELIABLE POWER GENERATION" by providing clients in the power generation industry with both technical and non-technical skills.</p>
+
+                    <!-- <p class="theTitle">Website Credentials</p>
+                    <p class="theDescription">Username: admin Password: admin123</p> -->
+                   
+                    <a href="https://ucc-bsit3a.com/ojt/bergs/index.php" style="color:skyblue">
+                        <p class="theDescription">To access a website, click here.</p>
+                    </a>
+                </div>
+            </div>
+
+
+
+
             <div class="scroll-bar">
                 <p class="title" onclick="closeMP()"><img class="close-img" src="assets/img/close.png"></p>
             </div>

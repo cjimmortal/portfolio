@@ -15,6 +15,10 @@ function seeProjects(){
 }
 
 function closeMP(){
+    $('.title').click(function(){      
+        $('iframe').attr('src', $('iframe').attr('src'));
+    });
+
     document.getElementById('viewProjects').style.display ="none";
     document.getElementById('body').style.overflow= "auto";
     document.getElementById('body').style.paddingRight= "0rem";
@@ -35,11 +39,6 @@ function openTab(){
 function myFunction() {
     alert("carponcj.bsit@gmail.com");
   }
-
-//   function myFunction() {
-//     alert("send me acarponcj.bsit@gmail.com");
-//   }
-
 
 
 

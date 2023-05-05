@@ -135,7 +135,7 @@ body{
     margin-top: -1rem;
 }
 .description .hero-btn-brief{
-    width: 5rem;
+    width: 4.4rem;
     color: black;
     background-color: #FF7A00;
     padding: 0.5rem;
@@ -523,3 +523,4 @@ ul {
     font-size: large;
     margin-bottom: -0.5rem;
 }
+

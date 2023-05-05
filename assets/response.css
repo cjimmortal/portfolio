@@ -264,5 +264,10 @@
         font-size: 11px;
     }
 
+    .iframe{
+        height: 174px;
+        width: 300px;
+
+    }
 
 }
